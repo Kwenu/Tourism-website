@@ -1,0 +1,29 @@
+.booking {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(229, 231, 235);
+    position: sticky;
+    top: 250px;
+}
+
+.booking__form h5{
+    margin-bottom: 1rem;
+}
+
+.booking__form input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    color: var(--heading-color);
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid rgb(229, 231, 235);
+}
+
+.booking__form input:focus {
+    outline: none;
+}
+
+.form-input {
+    padding: 8px 0px;
+}
