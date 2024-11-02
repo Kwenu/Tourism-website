@@ -48,3 +48,8 @@ app.listen(port, () => {
     connect();
     console.log(`Server is running on port`, port );
 })
+
+app.get('/', (req, res) => {
+    res.send('Hello World');
+    // console.log(res);
+})
